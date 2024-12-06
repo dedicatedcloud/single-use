@@ -25,12 +25,12 @@
 			'suggested_name' => 'star.zip', 
 			'protected_path' => 'secret/file2.zip' // local file
 		),
-		array(
-			'content_type' => 'audio/mpeg', 
-			'suggested_name' => 'music.mp3', 
-			'remote_path' => 'https://www.dropbox.com/XXXXXXX/music.mp3?dl=1', // remove file
-			'file_size' => '7.1MB', // File size is manually set, getting a remote file size is impossible
-		),
+		// array(
+		// 	'content_type' => 'audio/mpeg', 
+		// 	'suggested_name' => 'music.mp3', 
+		// 	'remote_path' => '', // remove file
+		// 	'file_size' => '7.1MB', // File size is manually set, getting a remote file size is impossible
+		// ),
 	);
 
 	// The path to the download.php file (probably same dir as this file)
